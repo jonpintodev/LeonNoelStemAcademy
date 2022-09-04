@@ -26,45 +26,49 @@ clear: both;
 /*******************************************/
 
 .planner {
-  border: solid 1px black;
+  border: solid 10px black;
   background-color: #f0cf6c;
-  width: 60%;
-  height:fit-content;
+  width: 30%;
+  height: 32em;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 #school {
-  border: solid 1px black;
   width: 100%;
 }
 
 .logo {
-  border: solid 1px black;
   margin-left: auto;
   margin-right: auto;
 }
 
 .studentPlanner {
-  border: solid 1px black;
   width: 100%;
 }
 
+.buttons {
+  height: 30%;
+}
 .loginButton {
-  border: solid 1px black;
-  width: 50%;
+  width: 100%;
+  text-decoration: none;
+  color: black;
 }
 
 
 .signinButton {
-  border: solid 1px black;
-  width: 50%;
+  width: 100%;
+  text-decoration: none;
+  color: black;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-.planner {
-}
+.planner {}
 
 #school {
   display: flex;
@@ -80,7 +84,19 @@ clear: both;
   justify-content: center;
 }
 
-.buttons {
+.loginButton {
   display: flex;
   justify-content: center;
+}
+
+.signinButton {
+  display: flex;
+  justify-content: center;
+  
+  align-items: flex-end;
+}
+
+.buttons {
+  display: flex;
+  align-items: flex-end;
 }
