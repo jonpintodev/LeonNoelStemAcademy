@@ -1,0 +1,86 @@
+/******************************************
+/* Box Model Hack */
+/*******************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+.planner {
+  border: solid 1px black;
+  background-color: #f0cf6c;
+  width: 60%;
+  height:fit-content;
+}
+
+#school {
+  border: solid 1px black;
+  width: 100%;
+}
+
+.logo {
+  border: solid 1px black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.studentPlanner {
+  border: solid 1px black;
+  width: 100%;
+}
+
+.loginButton {
+  border: solid 1px black;
+  width: 50%;
+}
+
+
+.signinButton {
+  border: solid 1px black;
+  width: 50%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.planner {
+}
+
+#school {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: block;
+}
+
+.studentPlanner {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
