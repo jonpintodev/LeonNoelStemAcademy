@@ -1,12 +1,16 @@
+<<<<<<< HEAD
 /******************************************
 /* Box Model Hack */
 /*******************************************/
+=======
+>>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+<<<<<<< HEAD
 
 /******************************************
 /* BASE STYLES
@@ -14,6 +18,11 @@
 body{
     font-family: 'Roboto', sans-serif;
     background: rgba(235, 233, 229, 0.822);
+=======
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgba(245, 241, 227, 0.266);
+>>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -28,15 +37,27 @@ body::before {
     right: 0;
     left: 0;
     bottom: 0;
+<<<<<<< HEAD
     background: rgba(254, 253, 249, 0.806);
+=======
+    background: rgba(177, 173, 161, 0.266);
+>>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
     z-index: -1;
     width: 100vw;
     height: 100vh;
   }
 
+<<<<<<< HEAD
 /******************************************
 /* FROM CONTAINER STYLES
 /*******************************************/
+=======
+
+
+
+
+/**/
+>>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
 .container{
     display: flex;
     flex-direction: column;
@@ -46,6 +67,7 @@ body::before {
 }
 
 
+<<<<<<< HEAD
 h3{
   font-size: 1.8rem;
   margin-bottom: 3rem;
@@ -118,4 +140,27 @@ input[type="password"]{
   input[type="submit"]:hover {
     background: #f5bd16;  
   }
+=======
+
+.alert.alert-danger{
+    font-size: .7rem;
+    font-weight: 400;
+    color: #000;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+/**/
+.form-parent{
+    display: flex;
+    flex-direction: column;
+    background:  rgba(250, 230, 170, 0.51);
+    padding: 1rem;
+    border-radius: 3px;
+    box-shadow: 2px 16px 111px 2px rgb(245, 226, 169);
+    -webkit-box-shadow: 2px 16px 111px 2px  rgb(245, 226, 169);
+    -moz-box-shadow: 2px 16px 111px 2px rgb(245, 226, 169);
+}
+>>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
 
