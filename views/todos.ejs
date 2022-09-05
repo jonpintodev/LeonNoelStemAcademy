@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- Add the following js-confetti script-->
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 </head>
 <body>
     <h1>Todos</h1>
@@ -28,5 +30,20 @@
     <a href="/logout">Logout</a>
 
     <script src="js/main.js"></script>
+    <!-- Add the following js-confetti script-->
+    <script> 
+        const jsConfetti = new JSConfetti()
+
+        function launchConfetti() {
+            jsConfetti.addConfetti({
+            /*emojis: ['⭐️', '⚡️', '💥', '✨', '💫', '🔥'],
+            emojiSize: 15,*/
+            confettiColors: ['#FEF30A', '#FFF30A', '#060909'],
+            confettiRadius: 3,
+            confettiNumber: 10000,
+        })
+        }
+        document.querySelector(".todoItem").addEventListener("click", launchConfetti); 
+    </script>
 </body>
 </html>

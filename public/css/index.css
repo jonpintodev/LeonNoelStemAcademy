@@ -24,6 +24,7 @@ clear: both;
 /******************************************
 /* BASE STYLES
 /*******************************************/
+
 .planner {
   border: solid 10px black;
   background-color: #f0cf6c;
@@ -31,15 +32,6 @@ clear: both;
   height: 32em;
   margin: auto;
   font-family: 'Roboto', sans-serif;
-}
-
-.topLoginPage {
-  height: 50%;
-}
-
-.loginForm {
-  border: 1px solid black;
-  height: 50%;
 }
 
 #school {
@@ -51,6 +43,25 @@ clear: both;
   margin-right: auto;
 }
 
+.studentPlanner {
+  width: 100%;
+}
+
+.buttons {
+  height: 30%;
+}
+.loginButton {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+
+.signinButton {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
 
 /******************************************
 /* LAYOUT
@@ -67,8 +78,24 @@ clear: both;
   display: block;
 }
 
-.loginForm {
+.studentPlanner {
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.loginButton {
+  display: flex;
+  justify-content: center;
+}
+
+.signinButton {
+  display: flex;
+  justify-content: center;
+  
+  align-items: flex-end;
+}
+
+.buttons {
+  display: flex;
+  align-items: flex-end;
 }
