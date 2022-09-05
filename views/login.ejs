@@ -17,16 +17,7 @@
             <h1 id="school">Leon Noel</h1>
             <h1 id="school">STEM Academy</h1>
             <img class="logo" src="./public/images/frontPageLogo.png" alt="">
-            <% if (locals.messages.errors) { %>
-                <% messages.errors.forEach( el => { %>
-                    <div class="alert alert-danger"><%= el.msg %></div>
-                <% }) %>    
-            <% } %>
-            <% if (locals.messages.info) { %>
-                <% messages.info.forEach( el => { %>
-                    <div class="alert alert-danger"><%= el.msg %></div>
-                <% }) %>    
-            <% } %>
+            
         </section>
         <section class="loginForm">
             <form class="form-parent" action="/login" method="POST">
@@ -34,6 +25,18 @@
                 <input class="password" type="password" name="password" placeholder="Password">
                 <input class="submit" type="submit" value="LOGIN">
             </form>
+            <section class="errorMessage"></section>
+            <% if (locals.messages.errors) { %>
+                <% messages.errors.forEach( el => { %>
+                    <div class="alert-alert-danger"><%= el.msg %></div>
+                <% }) %>    
+            <% } %>
+            <% if (locals.messages.info) { %>
+                <% messages.info.forEach( el => { %>
+                    <div class="alert-alert-danger"><%= el.msg %></div>
+                <% }) %>    
+            <% } %>
+            </section>
         </section>
     </section>
 </body>

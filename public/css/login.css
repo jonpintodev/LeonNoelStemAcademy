@@ -37,9 +37,6 @@ clear: both;
   height: 50%;
 }
 
-.loginForm {
-  height: 50%;
-}
 
 #school {
   width: 100%;
@@ -48,6 +45,27 @@ clear: both;
 .logo {
   margin-left: auto;
   margin-right: auto;
+}
+
+.loginForm {
+  height: 40%;
+}
+.errorMessage {
+  height: 50%;
+}
+
+.alert-alert-danger {
+  border: solid 1px #060909;
+  background-color: #060909;
+  font-family: 'Roboto', sans-serif;
+  font-size: .8rem;
+  color: #FFF30A;
+  width: fit-content;
+  margin: .1rem;
+  flex-direction: column;
+  padding-top: 1rem;
+  border-radius: 3px;
+  padding: .4rem;
 }
 
 
@@ -70,7 +88,6 @@ clear: both;
   display: flex;
   text-align: center;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -80,4 +97,10 @@ clear: both;
   padding: 1rem;
   border-radius: 3px;
   
+}
+
+.alert-alert-danger {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
