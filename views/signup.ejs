@@ -10,29 +10,17 @@
 </head>
 <body>
     <section class="container">
-<<<<<<< HEAD
-        <h3>Signup</h3>
-=======
->>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
         <% if (locals.messages.errors) { %>
             <% messages.errors.forEach( el => { %>
                 <div class="alert alert-danger"><%= el.msg %></div>
             <% }) %>    
         <% } %>
-<<<<<<< HEAD
-
-=======
->>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
         <form class="form-parent" action="/signup" method="POST">
             <input type="text" name="userName" placeholder="User Name">
             <input type="email" name="email" placeholder="Email">
             <input type="password" name="password" placeholder="Password">
             <input type="password" name="confirmPassword" placeholder="Confirm Password">
-<<<<<<< HEAD
-            <input type="submit" value="submit">
-=======
             <input type="submit">
->>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
         </form>
     </section>
 </body>

@@ -38,7 +38,6 @@ clear: both;
 }
 
 .loginForm {
-  border: 1px solid black;
   height: 50%;
 }
 
@@ -56,7 +55,7 @@ clear: both;
 /* LAYOUT
 /*******************************************/
 
-/* .planner {} */
+/****.planner {}*******/
 
 #school {
   display: flex;
@@ -69,6 +68,16 @@ clear: both;
 
 .loginForm {
   display: flex;
+  text-align: center;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.form-parent{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 3px;
+  
 }
