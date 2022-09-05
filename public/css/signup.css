@@ -1,12 +1,28 @@
+<<<<<<< HEAD
+/******************************************
+/* Box Model Hack */
+/*******************************************/
+=======
+>>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+<<<<<<< HEAD
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgba(235, 233, 229, 0.822);
+=======
 body{
     font-family: 'Poppins', sans-serif;
     background: rgba(245, 241, 227, 0.266);
+>>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -21,17 +37,27 @@ body::before {
     right: 0;
     left: 0;
     bottom: 0;
+<<<<<<< HEAD
+    background: rgba(254, 253, 249, 0.806);
+=======
     background: rgba(177, 173, 161, 0.266);
+>>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
     z-index: -1;
     width: 100vw;
     height: 100vh;
   }
 
+<<<<<<< HEAD
+/******************************************
+/* FROM CONTAINER STYLES
+/*******************************************/
+=======
 
 
 
 
 /**/
+>>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
 .container{
     display: flex;
     flex-direction: column;
@@ -41,6 +67,80 @@ body::before {
 }
 
 
+<<<<<<< HEAD
+h3{
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+  font-variant: all-small-caps;
+  font-weight: 400;
+  color: #978c70;
+}
+
+/******************************************
+/* ALERT MESSAGE STYLES
+/*******************************************/
+.alert.alert-danger{
+  font-size: .9rem;
+  font-weight: 400;
+  color: #e60606;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: .6rem;
+}
+
+
+/******************************************
+/* FROM STYLES
+/*******************************************/
+.form-parent{
+    display: flex;
+    flex-direction: column;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    height: 1.5rem;
+    padding: 1.3rem 5rem;
+    margin-bottom: 0.7rem;
+    background-clip: padding-box;
+    border: 1px solid rgb(213, 208, 193);
+    border-radius: 3px;
+    color: #495057;
+    font-size: 1rem;
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: 2px solid rgb(82, 148, 223);
+  }
+
+  input[type="text"]::placeholder {
+    margin-left: 0;
+}
+
+
+  input[type="submit"]{
+    margin-top: 3rem;
+    border: 0;
+    border-radius: 2px;
+    padding: 1rem;
+    background: #ebc963;  
+    font-size: 1.2rem;
+    color: #fff;
+    font-variant: all-petite-caps;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+
+  input[type="submit"]:hover {
+    background: #f5bd16;  
+  }
+=======
 
 .alert.alert-danger{
     font-size: .7rem;
@@ -62,4 +162,5 @@ body::before {
     -webkit-box-shadow: 2px 16px 111px 2px  rgb(245, 226, 169);
     -moz-box-shadow: 2px 16px 111px 2px rgb(245, 226, 169);
 }
+>>>>>>> 582be4d69d5227b27e0af766dd35d956f8433ed0
 
