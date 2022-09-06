@@ -26,7 +26,7 @@ body {
     background-color: #FAEFCE;
     width: 30%;
     height: 40em;
-    margin: auto 0 auto auto   
+    margin: auto 0 auto auto;
 }
 
 .planner2 {
@@ -34,7 +34,8 @@ body {
     background-color: #FAEFCE;
     width: 30%;
     height: 40em;
-    margin: auto auto auto 0    
+    margin: auto auto auto 0;
+    padding-top: 2rem;
 }
 
 header {
@@ -92,7 +93,7 @@ ul {
     background-color: var(--black);
     padding: .5rem .5rem;
     border-radius: .75rem;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
     margin-right: 1rem;
     color: var(--yellow3);
     font-size: 1rem;
@@ -102,14 +103,14 @@ ul {
     background-color: var(--black);
     padding: .5rem .5rem;
     border-radius: .75rem;
-    margin-left: 2rem;
-    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
     color: var(--yellow3);
     font-size: 1rem;
 }
 
 .form {
-    margin-left: .5rem;
+    margin-left: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -139,7 +140,8 @@ ul {
     justify-content: center;
     width: 400px;
     height: 40px;
-    margin-top: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
     background: var(--yellow1);
@@ -157,8 +159,8 @@ ul {
     background-color: var(--black);
     padding: .5rem .5rem;
     border-radius: .75rem;
-    margin-top: 2rem;
-    margin-left: 1;
+    margin-top: 7rem;
+    margin-left: 1rem;
     color: var(--yellow3);
     font-size: 1rem;
 }
@@ -179,6 +181,6 @@ ul {
     font-size: 1rem;
 }
 
-.edit {
-    
+.center {
+    text-align: center;
 }
