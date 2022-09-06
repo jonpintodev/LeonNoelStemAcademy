@@ -24,6 +24,10 @@ clear: both;
 /******************************************
 /* BASE STYLES
 /*******************************************/
+body {
+  background: #FDF7E7;
+}
+
 .planner {
   border: solid 10px black;
   background-color: #f0cf6c;
@@ -57,6 +61,7 @@ clear: both;
 .alert-alert-danger {
   border: solid 1px #060909;
   background-color: #060909;
+  border-radius: 25px;
   font-family: 'Roboto', sans-serif;
   font-size: .8rem;
   color: #FFF30A;
