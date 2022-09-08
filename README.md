@@ -3,6 +3,8 @@
 A full stack application with a Todos and Weekly Planner functions built using the MVC Architecture.
 We have also implemented "authorization" so folx can sign up, customize & personalize the app 
 
+Live Link: https://project-test-100devs.herokuapp.com/
+
 [landing page image]
 
 # Objectives
@@ -19,7 +21,23 @@ We have also implemented "authorization" so folx can sign up, customize & person
 
 # Packages/Dependencies used 
 
-bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
+  bcrypt
+  connect-mongo
+  cors
+  dotenv
+  ejs
+  express
+  express-flash
+  express-session
+  js-confetti
+  mongodb
+  mongoose
+  morgan
+  nodemon
+  passport
+  passport-local
+  validator
+
 
 ---
 
@@ -29,13 +47,18 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 ---
 
-# Things to add
+# Optimizations
 
-- Create a `.env` file and add the following as `key: value` 
-  - PORT: 2121 (can be any port example: 3000) 
-  - DB_STRING: `your database URI` 
- ---
+- Fully configure the weekly planner
+- Add a calendar 
+- Customize user experience with an avatar
+- Fully configure edit functionality
+- Change app name on Heroku
+- Migrate from Heroku after November
  
- Have fun testing and improving it! 😎
 
-
+# Contributors
+ - https://github.com/jonpintodev
+ - https://github.com/MsMLyons
+ - https://github.com/augustinlima
+ - https://github.com/cesar-codes
