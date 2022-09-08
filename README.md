@@ -5,7 +5,9 @@ We have also implemented "authorization" so folx can sign up, customize & person
 
 Live Link: https://project-test-100devs.herokuapp.com/
 
-[landing page image]
+![Landing Page](/public/images/landingPage.png)
+
+![Todos Example](/public/images/todos.png)
 
 # Objectives
 
