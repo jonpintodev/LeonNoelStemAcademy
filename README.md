@@ -1,22 +1,19 @@
-# Introduction
+# Leon Noel's STEM Academy Student Planner
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
+A full stack application with a Todos and Weekly Planner functions built using the MVC Architecture.
+We have also implemented "authorization" so folx can sign up, customize & personalize the app 
 
----
-
-> Be sure to add that lovely star 😀 and fork it for your own copy
-
----
+[landing page image]
 
 # Objectives
 
-- It's a beginner level app created to understand how MVC concept and logins are added
+- It's a full stack app created with middle- and high-school students in mind, to help them organize their days with todos and weeks with a weekly planner. 
 
 ---
 
 # Who is this for? 
 
-- It's for beginners & intermediates with little more experience, to help understand the various aspects of building a node app with some complex features
+- This was created with middle- and high-school students in mind, but it is useful for anyone wishing to plan their days and weeks. 
 
 ---
 
